@@ -14,3 +14,4 @@ To test TimesofIndia
     Appstate           Home
     TypeText           Username                    Admin
     TypeText           Password                    admin123
+    ClickText          Login
