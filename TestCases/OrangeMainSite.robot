@@ -16,6 +16,6 @@ To test TimesofIndia
     TypeText           Password                    admin123
     ClickText          Login
     ClickText          Admin
-    TypeText           Username                    feb sm
-    PickList           User Role                   Admin
+    TypeText           Username                    Admin
+    ClickElement       //div[@class\='oxd-select-text-input']                  Admin
     ClickText          Search
