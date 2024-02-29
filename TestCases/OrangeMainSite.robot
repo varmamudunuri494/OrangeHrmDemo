@@ -17,4 +17,5 @@ To test TimesofIndia
     ClickText          Login
     ClickText          Admin
     TypeText           Username                    Admin
+    Sleep              3s
     PickList           User Role                   Admin
