@@ -18,7 +18,7 @@ To test TimesofIndia
     ClickText          Admin
     TypeText           Username                    Admin
     #TypeText          //div[@class\='oxd-select-text oxd-select-text--active']//div[@class\='oxd-select-text-input']    Admin
-    ClickText          /html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[1]    Admin
+    ClickText          /html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div    Admin
     Sleep              2s
     ClickText          Admin
     ClickText          Search                      partial_match=False
