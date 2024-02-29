@@ -22,4 +22,5 @@ To test TimesofIndia
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]
     Sleep              2s
     ClickText          ESS
+    Sleep              2s
     ClickText          Search                      partial_match=False
