@@ -12,3 +12,5 @@ To test TimesofIndia
     [Tags]             OrangeHRM Main Site
     [Documentation]    Automating the Orange HRM Main Site
     Appstate           Home
+    TypeText           Username                    Admin
+    TypeText           Password                    admin123
