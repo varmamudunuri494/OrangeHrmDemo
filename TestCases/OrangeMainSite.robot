@@ -17,5 +17,5 @@ To test TimesofIndia
     ClickText          Login
     ClickText          Admin
     TypeText           Username                    Admin
-    TypeText           //div[@class\='oxd-select-text-input']                  Admin
+    TypeText           //div[@class\='oxd-select-text oxd-select-text--active']//div[@class\='oxd-select-text-input']    Admin
     ClickText          Search                      partial_match=False
