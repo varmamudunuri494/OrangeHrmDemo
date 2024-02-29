@@ -17,9 +17,10 @@ To test TimesofIndia
     ClickText          Login
     ClickText          Admin
     Sleep              10s
-    TypeText           //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input    nalim
-    Sleep              10s
-    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]
-    ClickText          ESS
+    #TypeText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input    nalim
+    #Sleep             10s
+    #ClickText         //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]
+    #ClickText         ESS
+    ClickCell          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[3]/div/div[1]/div/div
     Sleep              10s
     ClickText          Search
