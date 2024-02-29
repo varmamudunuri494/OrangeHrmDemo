@@ -17,6 +17,6 @@ To test TimesofIndia
     ClickText          Login
     ClickText          Admin
     TypeText           Employee Name               Test 55 Test 75
-    Sleep              3s
+    #Sleep              3s
     #PickList          User Role                   Admin
     ClickText          Search
