@@ -21,6 +21,6 @@ To test TimesofIndia
     #Sleep             10s
     #ClickText         //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]
     #ClickText         ESS
-    ClickCell          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[3]/div/div[1]/div/div
+    ClickCell          r1c3
     Sleep              10s
     ClickText          Search
