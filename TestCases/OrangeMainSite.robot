@@ -16,3 +16,5 @@ To test TimesofIndia
     TypeText           Password                    admin123
     ClickText          Login
     ClickText          Admin
+    TypeText           Username                    Admin
+    PickList           User Role                   Admin
