@@ -15,11 +15,11 @@ To test TimesofIndia
     TypeText           Username                    Admin
     TypeText           Password                    admin123
     ClickText          Login
-    ClickText          Admin
-    Sleep              10s
-    TypeText           //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input    nalim
-    Sleep              10s
-    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]
-    ClickText          ESS
-    Sleep              10s
-    ClickText          Search
+    #ClickText         Admin
+    #TypeText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input    nalim
+    #ClickText         //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]
+    #ClickText         ESS
+    #Sleep             10s
+    #ClickText         Search
+    ClickText          Leave
+    
