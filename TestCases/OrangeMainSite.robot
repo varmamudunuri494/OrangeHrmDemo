@@ -15,3 +15,4 @@ To test TimesofIndia
     TypeText           Username                    Admin
     TypeText           Password                    admin123
     ClickText          Login
+    ClickText          Admin
