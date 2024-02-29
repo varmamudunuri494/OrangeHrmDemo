@@ -22,4 +22,5 @@ To test TimesofIndia
     #Sleep             10s
     #ClickText         Search
     ClickText          Leave
-    
+    TypeText           From Date                   2024-05-03
+    TypeText           To Date                     2024-10-08
