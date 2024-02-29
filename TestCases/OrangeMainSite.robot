@@ -16,7 +16,6 @@ To test TimesofIndia
     TypeText           Password                    admin123
     ClickText          Login
     ClickText          Admin
-    TypeText           Employee Name               feb sm
-    #Sleep             3s
-    #PickList          User Role                   Admin
+    TypeText           Username                    feb sm
+    PickList           User Role                   Admin
     ClickText          Search
