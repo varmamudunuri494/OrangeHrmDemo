@@ -6,3 +6,9 @@ Library                DateTime
 Suite Setup            Open Browser                about:blank                 chrome
 Suite Teardown         Close All Browsers
 Resource               ../OrangeHRMDemoCommonResources/CommResource.robot
+
+*** Test Cases ***
+To test TimesofIndia
+    [Tags]             OrangeHRM Main Site
+    [Documentation]    Automating the Orange HRM Main Site
+    Appstate           Home
