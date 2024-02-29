@@ -18,4 +18,4 @@ To test TimesofIndia
     ClickText          Admin
     TypeText           Username                    Admin
     #ClickElement      //div[@class\='oxd-select-text-input']                  Admin
-    ClickText          Search
+    ClickText          Search                      partial_match=False
