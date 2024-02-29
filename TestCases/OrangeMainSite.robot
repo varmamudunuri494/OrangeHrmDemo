@@ -16,10 +16,11 @@ To test TimesofIndia
     TypeText           Password                    admin123
     ClickText          Login
     ClickText          Admin
+    Sleep              10s
     TypeText           Username                    RoseMerry52
-    Sleep              4s
+    Sleep              10s
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]
-    Sleep              2s
+    Sleep              10s
     ClickText          ESS
-    Sleep              2s
+    Sleep              10s
     ClickText          Search                      partial_match=False
