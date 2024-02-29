@@ -16,9 +16,9 @@ To test TimesofIndia
     TypeText           Password                    admin123
     ClickText          Login
     ClickText          Admin
-    TypeText           Username                    Admin
+    TypeText           Username                    febrm
     #TypeText          //div[@class\='oxd-select-text oxd-select-text--active']//div[@class\='oxd-select-text-input']    Admin
-    ClickText          /html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]    Admin
+    ClickText          /html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]    ESS
     Sleep              2s
-    ClickText          Admin
+    ClickText          ESS
     ClickText          Search                      partial_match=False
