@@ -18,7 +18,6 @@ To test TimesofIndia
     ClickText          Admin
     TypeText           Username                    RoseMerry52
     Sleep              4s
-    #TypeText          //div[@class\='oxd-select-text oxd-select-text--active']//div[@class\='oxd-select-text-input']    Admin
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]
     Sleep              2s
     ClickText          ESS
