@@ -22,6 +22,7 @@ To test TimesofIndia
     Sleep              3s
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div    Odis\n Adalwin
     Sleep              3s
+    ClickText          Odis\n Adalwin
     ClickText          Save
 
     #TypeText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/input    nalim
