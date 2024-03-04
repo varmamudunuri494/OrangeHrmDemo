@@ -20,7 +20,7 @@ To test TimesofIndia
     Sleep              3s
     ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[2]/div/div[6]/div/button[2]
     Sleep              3s
-    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div    Peter Mac Anderson
+    ClickText          //*[@id\="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div    Peter Anderson
     Sleep              3s
     ClickText          Peter Mac Anderson
     ClickText          Save
